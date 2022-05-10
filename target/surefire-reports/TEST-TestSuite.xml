@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="995.784" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_291\bin"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\M1081749\Downloads\CucumberFramework\CucumberFramework"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\M1081749\Downloads\CucumberFramework\CucumberFramework"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_291\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\M1081749\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\M1081749\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5634479762886493020.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_291\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jdk1.8.0_291/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_291/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_291/bin/../jre/lib/amd64;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander;;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\GuptaEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\DelphiEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\PBEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\VBEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\DotNetHooking;;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_291\bin;C:\Program Files\Git\cmd;C:\Users\M1081749\AppData\Local\Microsoft\WindowsApps;;C:\Users\M1081749\Desktop\ShakeShack\ShakeShack_Automation\eclipse-java-neon-3-win32-x86_64 (1)\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\M1081749"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="M1081749"/>
+    <property name="java.class.path" value="/C:/Users/M1081749/Desktop/ShakeShack/ShakeShack_Automation/eclipse-java-neon-3-win32-x86_64 (1)/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_291"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_291\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_291\lib\resources.jar;C:\Program Files\Java\jre1.8.0_291\lib\rt.jar;C:\Program Files\Java\jre1.8.0_291\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_291\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_291\lib\jce.jar;C:\Program Files\Java\jre1.8.0_291\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_291\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_291\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\M1081749\Downloads\CucumberFramework\CucumberFramework\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="feature" classname="com.mindtree.CucumberFramework.stepDefinations.Runner2" time="995.784">
+    <failure message="org.openqa.selenium.UnsupportedCommandException: Parameters were incorrect. We wanted {&quot;required&quot;:[&quot;using&quot;,&quot;value&quot;]} and you sent []&#10;Command duration or timeout: 915 milliseconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MININT-53TP037&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;&#10;Driver info: io.appium.java_client.ios.IOSDriver&#10;Capabilities {additionalWebviewBundleIds: [G4B2Z3X7X6.G4B2Z3X7X6*], automationName: XCUITest, browserName: , bundleId: com.shakeshack.shakeshackapp, commandTimeouts: {default: 60000}, databaseEnabled: false, deviceContextId: ff0da4ab-f395-4bf7-bb90-dc1..., deviceName: 00008101-001304EC1E86001E, idleTimeout: 90, javascriptEnabled: true, jobUuid: 473c7682a6af416d867e65b1584..., language: en, locale: en_US, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 90, noReset: true, orientation: PORTRAIT, platform: MAC, platformName: iOS, platformVersion: 15.4.1, processArguments: {args: [-AppleLanguages, (en-US), -AppleLocale, en_US, -NSLanguages, (en), -AppleLanguages, (en), -NSLanguages, (en), -AppleLocale, en_US], env: {}}, realDevice: true, takesScreenshot: true, testobject_device: iPhone_12_15_real_us, testobject_device_name: iPhone 12, testobject_device_session_id: da91dd15-5c5d-44d7-beab-898..., testobject_platform_name: iOS, testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: ddavisshakeshack, udid: 00008101-001304EC1E86001E, usedCachedDevice: false, webDriverAgentUrl: http://127.0.0.1:5728, webStorageEnabled: false}&#10;Session ID: 2579d819-5c3b-40d9-860e-8d346887c16b&#10;*** Element info: {Using=xpath, value=//XCUIElementTypeButton[@name=&quot;Category Button - Chicken&quot;]}" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: org.openqa.selenium.UnsupportedCommandException: Parameters were incorrect. We wanted {"required":["using","value"]} and you sent []
+Command duration or timeout: 915 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MININT-53TP037', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {additionalWebviewBundleIds: [G4B2Z3X7X6.G4B2Z3X7X6*], automationName: XCUITest, browserName: , bundleId: com.shakeshack.shakeshackapp, commandTimeouts: {default: 60000}, databaseEnabled: false, deviceContextId: ff0da4ab-f395-4bf7-bb90-dc1..., deviceName: 00008101-001304EC1E86001E, idleTimeout: 90, javascriptEnabled: true, jobUuid: 473c7682a6af416d867e65b1584..., language: en, locale: en_US, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 90, noReset: true, orientation: PORTRAIT, platform: MAC, platformName: iOS, platformVersion: 15.4.1, processArguments: {args: [-AppleLanguages, (en-US), -AppleLocale, en_US, -NSLanguages, (en), -AppleLanguages, (en), -NSLanguages, (en), -AppleLocale, en_US], env: {}}, realDevice: true, takesScreenshot: true, testobject_device: iPhone_12_15_real_us, testobject_device_name: iPhone 12, testobject_device_session_id: da91dd15-5c5d-44d7-beab-898..., testobject_platform_name: iOS, testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: ddavisshakeshack, udid: 00008101-001304EC1E86001E, usedCachedDevice: false, webDriverAgentUrl: http://127.0.0.1:5728, webStorageEnabled: false}
+Session ID: 2579d819-5c3b-40d9-860e-8d346887c16b
+*** Element info: {Using=xpath, value=//XCUIElementTypeButton[@name="Category Button - Chicken"]}
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.UnsupportedCommandException: Parameters were incorrect. We wanted {"required":["using","value"]} and you sent []
+Command duration or timeout: 915 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MININT-53TP037', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {additionalWebviewBundleIds: [G4B2Z3X7X6.G4B2Z3X7X6*], automationName: XCUITest, browserName: , bundleId: com.shakeshack.shakeshackapp, commandTimeouts: {default: 60000}, databaseEnabled: false, deviceContextId: ff0da4ab-f395-4bf7-bb90-dc1..., deviceName: 00008101-001304EC1E86001E, idleTimeout: 90, javascriptEnabled: true, jobUuid: 473c7682a6af416d867e65b1584..., language: en, locale: en_US, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 90, noReset: true, orientation: PORTRAIT, platform: MAC, platformName: iOS, platformVersion: 15.4.1, processArguments: {args: [-AppleLanguages, (en-US), -AppleLocale, en_US, -NSLanguages, (en), -AppleLanguages, (en), -NSLanguages, (en), -AppleLocale, en_US], env: {}}, realDevice: true, takesScreenshot: true, testobject_device: iPhone_12_15_real_us, testobject_device_name: iPhone 12, testobject_device_session_id: da91dd15-5c5d-44d7-beab-898..., testobject_platform_name: iOS, testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: ddavisshakeshack, udid: 00008101-001304EC1E86001E, usedCachedDevice: false, webDriverAgentUrl: http://127.0.0.1:5728, webStorageEnabled: false}
+Session ID: 2579d819-5c3b-40d9-860e-8d346887c16b
+*** Element info: {Using=xpath, value=//XCUIElementTypeButton[@name="Category Button - Chicken"]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy20.isDisplayed(Unknown Source)
+	at com.mindtree.CucumberFramework.pageObjects.FoodMainMenu.verifyFoodMainMenu(FoodMainMenu.java:82)
+	at com.mindtree.CucumberFramework.stepDefinations.ShakeShackIOSE2E.food_main_menu_screen_is_displayed(ShakeShackIOSE2E.java:280)
+	at ✽.And food main menu screen is displayed(features/delivery.feature:146)
+</failure>
+    <system-out><![CDATA[Feature: Feature to test Delivery  page functionality
+clicked on allow button
+---------tapping on next and allow button----------
+tapped on next button
+tapped on second allow
+-----Verify Home Screen Elements------
+hamburger menu is displayed
+History icon is displayed
+pickup button is displayed
+Delivery button is displayed
+Play button  is displayed
+Let’s get Shackin’!. Sign in or sign up.
+Home Page is displayed
+---Hamburger menu icon------
+Successfully tapped on Hamburger menu icon
+------Hamburger Menu Elements------
+Menu is displayed
+Hi There text is displayed
+Sign In or Create Account Text is displayed
+Nutritional Allergen Info  is displayed
+FAQ is displayed
+Contact Us  is displayed
+Instagram Icon is displayed
+Twitter Icon is displayed
+Facebook Icon is displayed
+Terms and Privacy Policy is displayed
+Close Icon is displayed
+----Hi there text-------
+tapped on Hi there
+-----Email Screen Elements------
+Back Button is displayed
+Get the goods! Sign in or create an account text is displayed
+Email Field is displayed
+Continue Facebook Button is displayed
+Continue Google Button is displayed
+Continue Apple Button is displayed
+----Entering mailid/pwd and clicking on continue button------
+Continue button is enabled post entering mailid
+tapped on Continue button
+Password field is displayed
+Forgot password Button is displayed
+password entered successfully
+Continue button is enabled post entering password
+tapped on Continue button
+tapped on continue button after entering password
+-----delivery button in home page-----
+tapped on delivery
+------delivery address screen---------
+Shack To Your Doorstep text is displayed 
+Enter your delivery address to get things rollin' text is displayed 
+Switch to pick up button is displayed 
+Delivery address field is displayed 
+App/Suite/Unit/Etc field is displayed 
+Next button is displayed 
+------entering delivery address and appsuite address--------
+entered the delivery address :225 Varick Street, New York, NY, USA
+clicked in wait method
+-----next button-----
+successfully tapped on next button
+-----verifying the elements after tapping on next button-----
+Back button is displayed
+Switch to pick up button is displayed
+Choose Your Delivery Time text is displayed
+Start Order button is displayed
+Schedule For Later text is displayed
+-----choose delivery time and tapping start button-----
+successfully tapped start order button
+-----Food Main Menu Screen-----
+Down Arrow is displayed
+Switch Pick Up is displayed
+
+  @PlaceOrderWithoutSuggestedItems
+  Scenario: Verify user can place delivery order without suggested items # features/delivery.feature:131
+    Given user launch the ShackShack app and tap on Allow InPopup        # ShakeShackIOSE2E.user_launch_the_ShackShack_app_and_tap_on_Allow_InPopup()
+    Then tap on next                                                     # ShakeShackIOSE2E.tap_on_next()
+    Then Home page is displayed                                          # ShakeShackIOSE2E.Home_page_is_displayed()
+    Then tap on menu icon                                                # ShakeShackIOSE2E.tap_on_menu_icon()
+    Then hamburger menu screen is displayed                              # ShakeShackIOSE2E.hamburger_menu_screen_is_displayed()
+    Then tap on Hi there text                                            # ShakeShackIOSE2E.tap_on_Hi_there_text()
+    Then Login with email page is displayed                              # ShakeShackIOSE2E.Login_with_email_page_is_displayed()
+    Then do Login with valid credentials                                 # ShakeShackIOSE2E.loginWithValidCredentials()
+    #Then Home page is displayed
+    Then tap on delivery button                                          # ShakeShackIOSE2E.tap_on_delivery_button()
+    And delivery address page is displayed                               # ShakeShackIOSE2E.delivery_address_page_is_displayed()
+    Then enter the delivery address                                      # ShakeShackIOSE2E.enter_the_delivery_address()
+    And tap on next button                                               # ShakeShackIOSE2E.tap_on_next_button()
+    Then choose your delivery time and tap start button                  # ShakeShackIOSE2E.choose_your_delivery_time_and_tap_start_button()
+    And food main menu screen is displayed                               # ShakeShackIOSE2E.food_main_menu_screen_is_displayed()
+      org.openqa.selenium.UnsupportedCommandException: Parameters were incorrect. We wanted {"required":["using","value"]} and you sent []
+      Command duration or timeout: 915 milliseconds
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'MININT-53TP037', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+      Driver info: io.appium.java_client.ios.IOSDriver
+      Capabilities {additionalWebviewBundleIds: [G4B2Z3X7X6.G4B2Z3X7X6*], automationName: XCUITest, browserName: , bundleId: com.shakeshack.shakeshackapp, commandTimeouts: {default: 60000}, databaseEnabled: false, deviceContextId: ff0da4ab-f395-4bf7-bb90-dc1..., deviceName: 00008101-001304EC1E86001E, idleTimeout: 90, javascriptEnabled: true, jobUuid: 473c7682a6af416d867e65b1584..., language: en, locale: en_US, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 90, noReset: true, orientation: PORTRAIT, platform: MAC, platformName: iOS, platformVersion: 15.4.1, processArguments: {args: [-AppleLanguages, (en-US), -AppleLocale, en_US, -NSLanguages, (en), -AppleLanguages, (en), -NSLanguages, (en), -AppleLocale, en_US], env: {}}, realDevice: true, takesScreenshot: true, testobject_device: iPhone_12_15_real_us, testobject_device_name: iPhone 12, testobject_device_session_id: da91dd15-5c5d-44d7-beab-898..., testobject_platform_name: iOS, testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: ddavisshakeshack, udid: 00008101-001304EC1E86001E, usedCachedDevice: false, webDriverAgentUrl: http://127.0.0.1:5728, webStorageEnabled: false}
+      Session ID: 2579d819-5c3b-40d9-860e-8d346887c16b
+      *** Element info: {Using=xpath, value=//XCUIElementTypeButton[@name="Category Button - Chicken"]}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+      	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+      	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+      	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+      	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+      	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+      	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+      	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+      	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+      	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+      	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+      	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+      	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+      	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+      	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+      	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+      	at com.sun.proxy.$Proxy20.isDisplayed(Unknown Source)
+      	at com.mindtree.CucumberFramework.pageObjects.FoodMainMenu.verifyFoodMainMenu(FoodMainMenu.java:82)
+      	at com.mindtree.CucumberFramework.stepDefinations.ShakeShackIOSE2E.food_main_menu_screen_is_displayed(ShakeShackIOSE2E.java:280)
+      	at ?.And food main menu screen is displayed(features/delivery.feature:146)
+
+    Then tap on fries menu                                               # ShakeShackIOSE2E.tap_on_fries_menu_and_select_item()
+    And fries menu items are displayed                                   # ShakeShackIOSE2E.fries_menu_items_are_displayed()
+    Then select item                                                     # ShakeShackIOSE2E.select_item()
+    And selected item screen is displayed                                # ShakeShackIOSE2E.selected_item_screen_is_displayed()
+    Then Add to Bag                                                      # ShakeShackIOSE2E.Add_to_Bag()
+    Then do Checkout                                                     # ShakeShackIOSE2E.checkout()
+    And payment screen is displayed                                      # ShakeShackIOSE2E.payment_screen_is_displayed()
+    Then tap on Pay button                                               # ShakeShackIOSE2E.tap_on_Pay_button()
+    Then Pay with Credit Card                                            # ShakeShackIOSE2E.Pay_with_Credit_Card()
+    And tap on close icon
+    And tap on order message                                             # ShakeShackIOSE2E.tap_on_order_message()
+    Then tap on close icon
+]]></system-out>
+    <system-err><![CDATA[Apr 27, 2022 1:03:23 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>

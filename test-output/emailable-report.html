@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Testing Ecommerce applications</th></tr><tr><td><a href="#t0">Negative</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">255,152</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Testing Ecommerce applications</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Negative &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.mindtree.CucumberFramework.stepDefinations.Runner2</td><td><a href="#m0">feature</a></td><td rowspan="1">1652157497759</td><td rowspan="1">254611</td></tr></tbody></table><h2>Negative</h2><h3 id="m0">com.mindtree.CucumberFramework.stepDefinations.Runner2#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Delivery functionality validation</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: com.mindtree.CucumberFramework.execptions.WebDriverExceptions: Not able to get text
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.mindtree.CucumberFramework.execptions.WebDriverExceptions: Not able to get text
+	at com.mindtree.CucumberFramework.pageObjects.BasePage.getText(BasePage.java:410)
+	at com.mindtree.CucumberFramework.pageObjects.DeliveryPage.verifyChooseDeliveryScreen(DeliveryPage.java:211)
+	at com.mindtree.CucumberFramework.stepDefinations.ShakeShackIOSE2E.choose_your_delivery_time_screen_is_displayed(ShakeShackIOSE2E.java:204)
+	at ?.Then choose your delivery time screen is displayed(./src/test/resources/features/deliveryModule.feature:138)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MININT-53TP037&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {additionalWebviewBundleIds: [HP4NU52CJC.HP4NU52CJC*], automationName: XCUITest, browserName: , bundleId: com.shakeshack.shakeshackapp, commandTimeouts: {default: 60000}, databaseEnabled: false, deviceContextId: 6a8d6bf7-5559-4786-89bd-867..., deviceName: 00008101-000D6D3114E9001E, idleTimeout: 90, javascriptEnabled: true, jobUuid: 0dba13f0250d4689a56fc1388de..., language: en, locale: en_US, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 90, noReset: true, orientation: PORTRAIT, platform: MAC, platformName: iOS, platformVersion: 15.3.1, processArguments: {args: [-AppleLanguages, (en-US), -AppleLocale, en_US, -NSLanguages, (en), -AppleLanguages, (en), -NSLanguages, (en), -AppleLocale, en_US], env: {}}, realDevice: true, takesScreenshot: true, testobject_device: iPhone_12_Pro_Max_15_real, testobject_device_name: iPhone 12 Pro Max, testobject_device_session_id: 3ffcb885-41d9-4016-b943-c89..., testobject_platform_name: iOS, testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: ddavisshakeshack, udid: 00008101-000D6D3114E9001E, usedCachedDevice: false, webDriverAgentUrl: http://127.0.0.1:5713, webStorageEnabled: false}
+Session ID: 6c7a67f4-09b9-4467-a788-87b243aa05e5
+*** Element info: {Using=xpath, value=//XCUIElementTypeStaticText[@name=&quot;Choose Your Delivery Time&quot;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at com.mindtree.CucumberFramework.pageObjects.BasePage.getText(BasePage.java:404)
+	at com.mindtree.CucumberFramework.pageObjects.DeliveryPage.verifyChooseDeliveryScreen(DeliveryPage.java:211)
+	at com.mindtree.CucumberFramework.stepDefinations.ShakeShackIOSE2E.choose_your_delivery_time_screen_is_displayed(ShakeShackIOSE2E.java:204)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

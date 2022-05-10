@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Testing Ecommerce applications</th></tr><tr><td><a href="#t0">Negative</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">996,924</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Testing Ecommerce applications</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Negative &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.mindtree.CucumberFramework.stepDefinations.Runner2</td><td><a href="#m0">feature</a></td><td rowspan="1">1651044028057</td><td rowspan="1">995760</td></tr></tbody></table><h2>Negative</h2><h3 id="m0">com.mindtree.CucumberFramework.stepDefinations.Runner2#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Feature to test Delivery  page functionality</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: org.openqa.selenium.UnsupportedCommandException: Parameters were incorrect. We wanted {&quot;required&quot;:[&quot;using&quot;,&quot;value&quot;]} and you sent []
+Command duration or timeout: 915 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MININT-53TP037&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {additionalWebviewBundleIds: [G4B2Z3X7X6.G4B2Z3X7X6*], automationName: XCUITest, browserName: , bundleId: com.shakeshack.shakeshackapp, commandTimeouts: {default: 60000}, databaseEnabled: false, deviceContextId: ff0da4ab-f395-4bf7-bb90-dc1..., deviceName: 00008101-001304EC1E86001E, idleTimeout: 90, javascriptEnabled: true, jobUuid: 473c7682a6af416d867e65b1584..., language: en, locale: en_US, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 90, noReset: true, orientation: PORTRAIT, platform: MAC, platformName: iOS, platformVersion: 15.4.1, processArguments: {args: [-AppleLanguages, (en-US), -AppleLocale, en_US, -NSLanguages, (en), -AppleLanguages, (en), -NSLanguages, (en), -AppleLocale, en_US], env: {}}, realDevice: true, takesScreenshot: true, testobject_device: iPhone_12_15_real_us, testobject_device_name: iPhone 12, testobject_device_session_id: da91dd15-5c5d-44d7-beab-898..., testobject_platform_name: iOS, testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: ddavisshakeshack, udid: 00008101-001304EC1E86001E, usedCachedDevice: false, webDriverAgentUrl: http://127.0.0.1:5728, webStorageEnabled: false}
+Session ID: 2579d819-5c3b-40d9-860e-8d346887c16b
+*** Element info: {Using=xpath, value=//XCUIElementTypeButton[@name=&quot;Category Button - Chicken&quot;]}
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.UnsupportedCommandException: Parameters were incorrect. We wanted {&quot;required&quot;:[&quot;using&quot;,&quot;value&quot;]} and you sent []
+Command duration or timeout: 915 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MININT-53TP037&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {additionalWebviewBundleIds: [G4B2Z3X7X6.G4B2Z3X7X6*], automationName: XCUITest, browserName: , bundleId: com.shakeshack.shakeshackapp, commandTimeouts: {default: 60000}, databaseEnabled: false, deviceContextId: ff0da4ab-f395-4bf7-bb90-dc1..., deviceName: 00008101-001304EC1E86001E, idleTimeout: 90, javascriptEnabled: true, jobUuid: 473c7682a6af416d867e65b1584..., language: en, locale: en_US, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 90, noReset: true, orientation: PORTRAIT, platform: MAC, platformName: iOS, platformVersion: 15.4.1, processArguments: {args: [-AppleLanguages, (en-US), -AppleLocale, en_US, -NSLanguages, (en), -AppleLanguages, (en), -NSLanguages, (en), -AppleLocale, en_US], env: {}}, realDevice: true, takesScreenshot: true, testobject_device: iPhone_12_15_real_us, testobject_device_name: iPhone 12, testobject_device_session_id: da91dd15-5c5d-44d7-beab-898..., testobject_platform_name: iOS, testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: ddavisshakeshack, udid: 00008101-001304EC1E86001E, usedCachedDevice: false, webDriverAgentUrl: http://127.0.0.1:5728, webStorageEnabled: false}
+Session ID: 2579d819-5c3b-40d9-860e-8d346887c16b
+*** Element info: {Using=xpath, value=//XCUIElementTypeButton[@name=&quot;Category Button - Chicken&quot;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy20.isDisplayed(Unknown Source)
+	at com.mindtree.CucumberFramework.pageObjects.FoodMainMenu.verifyFoodMainMenu(FoodMainMenu.java:82)
+	at com.mindtree.CucumberFramework.stepDefinations.ShakeShackIOSE2E.food_main_menu_screen_is_displayed(ShakeShackIOSE2E.java:280)
+	at ?.And food main menu screen is displayed(features/delivery.feature:146)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
